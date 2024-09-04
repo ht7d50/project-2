@@ -1,1 +1,28 @@
-
+h1 {
+	background-color: #a1ff75;
+	color: black;
+	text-align: center;
+	border-style: dashed;
+}
+body {
+	background-color: lightblue;
+}
+.q1 {
+	background-color: #ff912a;
+	color: white;
+}
+.q2 {
+	background-color: #ff912a;
+	color: white;
+}
+.q3 {
+	background-color: #ff912a;
+	color: white;
+}
+.q4 {
+	background-color: #ff912a;
+	color: white;
+}
+.asdf {
+	text-align: center;
+}
