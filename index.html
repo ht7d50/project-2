@@ -1,60 +1,87 @@
 <!DOCTYPE html>
 <html>
- <head>
+<head>
 	<title> testing </title>
 	<link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="myScript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="myScript.js"></script>
 </head>
  <body>
  <h1> Basic Geography Quiz </h1>
-	<div class="asdf"
+	 <div class="Title">
 		<p> Lets see how good your geography skills are!</p>
-	</div>
-	<div class="q1">
+	 </div>
+	 
+	 <!-- Question 1 -->
+	 
+	 <div class="q1">
 		<p> Which two countries share the largest border with each other land wise? </p>
-	</div>
+	 </div>
+	 
 	<form>
-	<input type="radio" id="answer 1" name="geography" value="USA and Canada">
-	<label for="USA and Canada">USA and Canada</label><br>
-	<input type="radio" id="answer 2" name="geography" value="Russia and China">
-	<label for="Russia and China">Russia and China</label><br>
-	<input type="radio" id="answer 3" name="geography" value="Kazakhstan and Russia">
-	<label for="Kazakhstan and Russia">Kazakhstan and Russia</label>
+		<input type="radio" id="answer1" name="geography" value="USA and Canada">
+		<label for="USA and Canada">USA and Canada</label><br>
+		<input type="radio" id="answer2" name="geography" value="Russia and China">
+		<label for="Russia and China">Russia and China</label><br>
+		<input type="radio" id="answer3" name="geography" value="Kazakhstan and Russia">
+		<label for="Kazakhstan and Russia">Kazakhstan and Russia</label>
 	</form>
-	<div class="q2">
+	
+	 <button class="showA" data-answer="a1">Show Answer</button>
+	  <div class="answer">Correct answer: USA and Canada </div>
+	 
+	 <!-- Question 2 -->
+	 
+	 <div class="q2">
 		<p> What is the capital of Canada? </p>
-	</div>
+	 </div>
+	 
 	<form>
-	<input type="radio" id="answer 4" name="geography" value="Toronto"
-	<label for="Toronto">Toronto</label><br>
-	<input type="radio" id="answer 5" name="geography" value="Ottawa"
-	<label for="Ottawa">Ottawa</label><br>
-	<input type="radio" id="answer 6" name="geography" value="Quebec"
-	<label for="Quebec">Quebec</label><br>
+		<input type="radio" id="answer4" name="geography2" value="Toronto">
+		<label for="Toronto">Toronto</label><br>
+		<input type="radio" id="answer5" name="geography2" value="Ottawa">
+		<label for="Ottawa">Ottawa</label><br>
+		<input type="radio" id="answer6" name="geography2" value="Quebec">
+		<label for="Quebec">Quebec</label><br>
 	</form>
-	<div class="q3">
+	<button class="showA" data-answer="a2">Show Answer</button>
+	  <div class="answer">Correct answer: Ottawa </div>
+	
+	<!-- Question 3 -->
+	
+	 <div class="q3">
 		<p> What is the largest country in terms of land mass? </p>
-	</div>
+	 </div>
+	 
 	<form>
-	<input type="radio" id="answer 7" name="geography" value="USA"
-	<label for="USA">USA</label><br>
-	<input type="radio" id="answer 8" name="geography" value="China"
-	<label for="China">China</label><br>
-	<input type="radio" id="answer 9" name="geography" value="Russia"
-	<label for="Russia">Russia</label><br>
+		<input type="radio" id="answer7" name="geography3" value="USA">
+		<label for="USA">USA</label><br>
+		<input type="radio" id="answer8" name="geography3" value="China">
+		<label for="China">China</label><br>
+		<input type="radio" id="answer9" name="geography3" value="Russia">
+		<label for="Russia">Russia</label><br>
 	</form>
-	<div class="q4">
+	
+	<button class="showA" data-answer="a3">Show Answer</button>
+	  <div class="answer">Correct answer: Russia </div>
+	
+	<!-- Question 4 -->
+	
+	 <div class="q4">
 		<p> What is the smallest country in the world? </p>
-	</div>
+	 </div>
+	 
 	<form>
-	<input type="radio" id="answer 10" name="geography" value="San Marino"
-	<label for="San Marino">San Marino</label><br>
-	<input type="radio" id="answer 11" name="geography" value="Vatican City"
-	<label for="Vatican City">Vatican City</label><br>
-	<input type="radio" id="answer 12" name="geography" value="Monaco"
-	<label for="Monaco">Monaco</label><br>
+		<input type="radio" id="answer10" name="geography4" value="San Marino">
+		<label for="San Marino">San Marino</label><br>
+		<input type="radio" id="answer11" name="geography4" value="Vatican City">
+		<label for="Vatican City">Vatican City</label><br>
+		<input type="radio" id="answer12" name="geography4" value="Monaco">
+		<label for="Monaco">Monaco</label><br>
 	</form>
+	
+	<button class="showA" data-answer="a4">Show Answer</button>
+	  <div class="answer">Correct answer: Vatican City </div>
 	
  </body>
  
